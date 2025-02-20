@@ -1,0 +1,40 @@
+> flux_led 192.168.0.102 --on --debug
+DEBUG:flux_led.aioprotocol:('192.168.0.102', 5577) => 0x81 0x8A 0x8B 0x96 (4)
+DEBUG:flux_led.aioprotocol:('192.168.0.102', 5577) <= 0x81 0x41 0x24 0x61 0x01 0x05 0x07 0x00 0x00 0x00 0x03 0x00 0x00 0x57 (14)
+DEBUG:flux_led.base_device:192.168.0.102: set_available: Received message 8141246101050700000003000057
+DEBUG:flux_led.base_device:192.168.0.102: State: LEDENETRawState(head=129, model_num=65, power_state=36, preset_pattern=97, mode=1, speed=5, red=7, green=0, blue=0, warm_white=0, version_number=3, cool_white=0, color_mode=0, check_sum=87)
+DEBUG:flux_led.base_device:192.168.0.102: unmapped raw state: 129,65,36,97,1,5,7,0,0,0,3,0,0,87,
+DEBUG:flux_led.base_device:192.168.0.102: Mapped State: LEDENETRawState(head=129, model_num=65, power_state=36, preset_pattern=97, mode=1, speed=5, red=0, green=0, blue=0, warm_white=7, version_number=3, cool_white=0, color_mode=0, check_sum=87)
+DEBUG:flux_led.aiodevice:192.168.0.102: device_config: wiring=None operating_mode=None
+DEBUG:flux_led.aioprotocol:('192.168.0.102', 5577) => 0x71 0x23 0x0F 0xA3 (4)
+DEBUG:flux_led.aiodevice:192.168.0.102: Waiting for power state response
+DEBUG:flux_led.aioprotocol:('192.168.0.102', 5577) <= 0x0F 0x71 0x23 0xA3 (4)
+DEBUG:flux_led.base_device:192.168.0.102: set_available: Received message 0f7123a3
+DEBUG:flux_led.base_device:192.168.0.102: Setting power state to: 0x23
+DEBUG:flux_led.base_device:192.168.0.102: _replace_raw_state: {'power_state': 35}
+DEBUG:flux_led.base_device:192.168.0.102: Transition time is 2.29, set _transition_complete_time to 7729.427465903
+DEBUG:flux_led.aiodevice:192.168.0.102: Completed power state change to True (1/6)
+Turning on bulb at 192.168.0.102
+DEBUG:flux_led.base_device:192.168.0.102: set_unavailable: Connection closed
+DEBUG:flux_led.aioprotocol:('192.168.0.102', 5577): Connection lost: None
+DEBUG:flux_led.base_device:192.168.0.102: set_unavailable: Connection lost
+> flux_led 192.168.0.102 --on --debug
+DEBUG:flux_led.aioprotocol:('192.168.0.102', 5577) => 0x81 0x8A 0x8B 0x96 (4)
+DEBUG:flux_led.aioprotocol:('192.168.0.102', 5577) <= 0x81 0x41 0x24 0x61 0x01 0x05 0x07 0x00 0x00 0x00 0x03 0x00 0x00 0x57 (14)
+DEBUG:flux_led.base_device:192.168.0.102: set_available: Received message 8141246101050700000003000057
+DEBUG:flux_led.base_device:192.168.0.102: State: LEDENETRawState(head=129, model_num=65, power_state=36, preset_pattern=97, mode=1, speed=5, red=7, green=0, blue=0, warm_white=0, version_number=3, cool_white=0, color_mode=0, check_sum=87)
+DEBUG:flux_led.base_device:192.168.0.102: unmapped raw state: 129,65,36,97,1,5,7,0,0,0,3,0,0,87,
+DEBUG:flux_led.base_device:192.168.0.102: Mapped State: LEDENETRawState(head=129, model_num=65, power_state=36, preset_pattern=97, mode=1, speed=5, red=0, green=0, blue=0, warm_white=7, version_number=3, cool_white=0, color_mode=0, check_sum=87)
+DEBUG:flux_led.aiodevice:192.168.0.102: device_config: wiring=None operating_mode=None
+DEBUG:flux_led.aioprotocol:('192.168.0.102', 5577) => 0x71 0x23 0x0F 0xA3 (4)
+DEBUG:flux_led.aiodevice:192.168.0.102: Waiting for power state response
+DEBUG:flux_led.aioprotocol:('192.168.0.102', 5577) <= 0x0F 0x71 0x23 0xA3 (4)
+DEBUG:flux_led.base_device:192.168.0.102: set_available: Received message 0f7123a3
+DEBUG:flux_led.base_device:192.168.0.102: Setting power state to: 0x23
+DEBUG:flux_led.base_device:192.168.0.102: _replace_raw_state: {'power_state': 35}
+DEBUG:flux_led.base_device:192.168.0.102: Transition time is 2.29, set _transition_complete_time to 7814.868609136
+DEBUG:flux_led.aiodevice:192.168.0.102: Completed power state change to True (1/6)
+Turning on bulb at 192.168.0.102
+DEBUG:flux_led.base_device:192.168.0.102: set_unavailable: Connection closed
+DEBUG:flux_led.aioprotocol:('192.168.0.102', 5577): Connection lost: None
+DEBUG:flux_led.base_device:192.168.0.102: set_unavailable: Connection lost
